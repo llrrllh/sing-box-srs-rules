@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "compiler_version": "1.14.4",
+  "rules": [
+    {
+      "tag": "ds-icloud-private-relay",
+      "url": "https://ruleset.skk.moe/sing-box/domainset/icloud_private_relay.json",
+      "source_path": "sources/domainset/icloud_private_relay.json",
+      "srs_path": "rules/domainset/icloud_private_relay.srs",
+      "minimum_entries": 3
+    },
+    {
+      "tag": "ds-reject",
+      "url": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
+      "source_path": "sources/domainset/reject.json",
+      "srs_path": "rules/domainset/reject.srs",
+      "minimum_entries": 73226
+    },
+    {
+      "tag": "ds-reject-phishing",
+      "url": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
+      "source_path": "sources/domainset/reject_phishing.json",
+      "srs_path": "rules/domainset/reject_phishing.srs",
+      "minimum_entries": 71141
+    },
+    {
+      "tag": "ni-ai",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/ai.json",
+      "source_path": "sources/non_ip/ai.json",
+      "srs_path": "rules/non_ip/ai.srs",
+      "minimum_entries": 27
+    },
+    {
+      "tag": "ni-apple-cn",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/apple_cn.json",
+      "source_path": "sources/non_ip/apple_cn.json",
+      "srs_path": "rules/non_ip/apple_cn.srs",
+      "minimum_entries": 4
+    },
+    {
+      "tag": "ni-apple-intelligence",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/apple_intelligence.json",
+      "source_path": "sources/non_ip/apple_intelligence.json",
+      "srs_path": "rules/non_ip/apple_intelligence.srs",
+      "minimum_entries": 2
+    },
+    {
+      "tag": "ni-direct",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/direct.json",
+      "source_path": "sources/non_ip/direct.json",
+      "srs_path": "rules/non_ip/direct.srs",
+      "minimum_entries": 91
+    },
+    {
+      "tag": "ni-domestic",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/domestic.json",
+      "source_path": "sources/non_ip/domestic.json",
+      "srs_path": "rules/non_ip/domestic.srs",
+      "minimum_entries": 434
+    },
+    {
+      "tag": "ni-domestic-cdn",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/domestic_cdn.json",
+      "source_path": "sources/non_ip/domestic_cdn.json",
+      "srs_path": "rules/non_ip/domestic_cdn.srs",
+      "minimum_entries": 9
+    },
+    {
+      "tag": "ni-lan",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/lan.json",
+      "source_path": "sources/non_ip/lan.json",
+      "srs_path": "rules/non_ip/lan.srs",
+      "minimum_entries": 24
+    },
+    {
+      "tag": "ni-neteasemusic",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/neteasemusic.json",
+      "source_path": "sources/non_ip/neteasemusic.json",
+      "srs_path": "rules/non_ip/neteasemusic.srs",
+      "minimum_entries": 1
+    },
+    {
+      "tag": "ni-stream-biliintl",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/stream_biliintl.json",
+      "source_path": "sources/non_ip/stream_biliintl.json",
+      "srs_path": "rules/non_ip/stream_biliintl.srs",
+      "minimum_entries": 3
+    },
+    {
+      "tag": "ni-stream-jp",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/stream_jp.json",
+      "source_path": "sources/non_ip/stream_jp.json",
+      "srs_path": "rules/non_ip/stream_jp.srs",
+      "minimum_entries": 12
+    },
+    {
+      "tag": "ni-stream-eu",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/stream_eu.json",
+      "source_path": "sources/non_ip/stream_eu.json",
+      "srs_path": "rules/non_ip/stream_eu.srs",
+      "minimum_entries": 4
+    },
+    {
+      "tag": "ni-stream-us",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/stream_us.json",
+      "source_path": "sources/non_ip/stream_us.json",
+      "srs_path": "rules/non_ip/stream_us.srs",
+      "minimum_entries": 21
+    },
+    {
+      "tag": "ni-stream",
+      "url": "https://ruleset.skk.moe/sing-box/non_ip/stream.json",
+      "source_path": "sources/non_ip/stream.json",
+      "srs_path": "rules/non_ip/stream.srs",
+      "minimum_entries": 136
+    },
+    {
+      "tag": "ip-ai",
+      "url": "https://ruleset.skk.moe/sing-box/ip/ai.json",
+      "source_path": "sources/ip/ai.json",
+      "srs_path": "rules/ip/ai.srs",
+      "minimum_entries": 200
+    },
+    {
+      "tag": "ip-china-ip",
+      "url": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
+      "source_path": "sources/ip/china_ip.json",
+      "srs_path": "rules/ip/china_ip.srs",
+      "minimum_entries": 1947
+    },
+    {
+      "tag": "ip-china-ip-ipv6",
+      "url": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
+      "source_path": "sources/ip/china_ip_ipv6.json",
+      "srs_path": "rules/ip/china_ip_ipv6.srs",
+      "minimum_entries": 1738
+    },
+    {
+      "tag": "ip-domestic",
+      "url": "https://ruleset.skk.moe/sing-box/ip/domestic.json",
+      "source_path": "sources/ip/domestic.json",
+      "srs_path": "rules/ip/domestic.srs",
+      "minimum_entries": 1
+    },
+    {
+      "tag": "ip-lan",
+      "url": "https://ruleset.skk.moe/sing-box/ip/lan.json",
+      "source_path": "sources/ip/lan.json",
+      "srs_path": "rules/ip/lan.srs",
+      "minimum_entries": 5
+    },
+    {
+      "tag": "ip-neteasemusic",
+      "url": "https://ruleset.skk.moe/sing-box/ip/neteasemusic.json",
+      "source_path": "sources/ip/neteasemusic.json",
+      "srs_path": "rules/ip/neteasemusic.srs",
+      "minimum_entries": 8
+    },
+    {
+      "tag": "ip-reject",
+      "url": "https://ruleset.skk.moe/sing-box/ip/reject.json",
+      "source_path": "sources/ip/reject.json",
+      "srs_path": "rules/ip/reject.srs",
+      "minimum_entries": 383
+    },
+    {
+      "tag": "ip-stream-biliintl",
+      "url": "https://ruleset.skk.moe/sing-box/ip/stream_biliintl.json",
+      "source_path": "sources/ip/stream_biliintl.json",
+      "srs_path": "rules/ip/stream_biliintl.srs",
+      "minimum_entries": 0
+    },
+    {
+      "tag": "ip-stream-eu",
+      "url": "https://ruleset.skk.moe/sing-box/ip/stream_eu.json",
+      "source_path": "sources/ip/stream_eu.json",
+      "srs_path": "rules/ip/stream_eu.srs",
+      "minimum_entries": 0
+    },
+    {
+      "tag": "ip-stream-jp",
+      "url": "https://ruleset.skk.moe/sing-box/ip/stream_jp.json",
+      "source_path": "sources/ip/stream_jp.json",
+      "srs_path": "rules/ip/stream_jp.srs",
+      "minimum_entries": 0
+    },
+    {
+      "tag": "ip-stream-us",
+      "url": "https://ruleset.skk.moe/sing-box/ip/stream_us.json",
+      "source_path": "sources/ip/stream_us.json",
+      "srs_path": "rules/ip/stream_us.srs",
+      "minimum_entries": 0
+    },
+    {
+      "tag": "ip-stream",
+      "url": "https://ruleset.skk.moe/sing-box/ip/stream.json",
+      "source_path": "sources/ip/stream.json",
+      "srs_path": "rules/ip/stream.srs",
+      "minimum_entries": 9
+    }
+  ],
+  "retained_external_rule": {
+    "tag": "rs-Spotify",
+    "url": "https://raw.githubusercontent.com/Yuu518/sing-box-rules/rule_set/rule_set_site/spotify.srs",
+    "format": "binary"
+  }
+}

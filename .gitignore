@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.new
+*.log
+config.json
+sing-box-mt.json

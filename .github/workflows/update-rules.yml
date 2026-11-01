@@ -1,0 +1,63 @@
+name: Update same-source SRS rules
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-rules.yml'
+      - 'scripts/update_rules.py'
+      - 'manifest.json'
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: same-source-srs-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Install pinned official sing-box compiler
+        env:
+          SING_BOX_SHA256: 699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="${RUNNER_TEMP}/sing-box.tar.gz"
+          curl --fail --location --retry 3 --connect-timeout 20 \
+            'https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz' \
+            --output "$archive"
+          printf '%s  %s\n' "$SING_BOX_SHA256" "$archive" | sha256sum --check -
+          tar -xzf "$archive" -C "$RUNNER_TEMP" --strip-components=1 \
+            'sing-box-1.14.4-linux-amd64/sing-box'
+          chmod +x "${RUNNER_TEMP}/sing-box"
+      - name: Fetch, validate, and compile all approved sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/update_rules.py --sing-box "${RUNNER_TEMP}/sing-box"
+      - name: Commit only successful rule snapshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- sources rules metadata.json
+          if git diff --cached --quiet; then
+            echo 'No source or binary changes.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Update approved SKK source snapshots and SRS rules'
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
