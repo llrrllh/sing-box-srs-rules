@@ -52,7 +52,7 @@ def normalize_domain(value: object, *, suffix: bool) -> str:
     if not isinstance(value, str) or not value or value != value.strip():
         raise ValueError("Domain values must be nonempty strings without surrounding whitespace")
     if suffix and value.startswith("."):
-        value = value[1:]
+        raise ValueError("A leading-dot domain suffix requires manual semantic review")
     value = value.rstrip(".").lower()
     if not value or any(char.isspace() or char in "*,/#:+\\" for char in value):
         raise ValueError(f"Unsupported domain syntax: {value!r}")
@@ -83,11 +83,8 @@ def convert_source(raw: bytes) -> tuple[dict[str, bytes], dict[str, object]]:
     for index, rule in enumerate(rules):
         if not isinstance(rule, dict) or not rule or set(rule) - ALLOWED_FIELDS:
             raise ValueError(f"Rule {index} contains unsupported fields or is empty")
-        # sing-box combines domain match variants using OR. Multiple different
-        # match categories can instead combine using AND, so refuse a future
-        # mixed domain/IP rule rather than split it and change its semantics.
-        if rule.get("ip_cidr") and (rule.get("domain") or rule.get("domain_suffix")):
-            raise ValueError(f"Rule {index} combines domains with IPs; manual review is required")
+        # Headless rules combine domain variants and ip_cidr in the same OR
+        # group. Keep those two parts in their respective routing phases.
         for field, values in rule.items():
             if not isinstance(values, list) or any(not isinstance(item, str) for item in values):
                 raise ValueError(f"Rule {index} field {field} must be a list of strings")
