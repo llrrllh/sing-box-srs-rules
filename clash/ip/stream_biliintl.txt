@@ -1,0 +1,6 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/ip/stream_biliintl.json
+# Source SHA-256: bbbfbebf7ab262d892db02cb6f77c511d0fbf105ef3b3eef42673cfa9c18289b
+# Mihomo behavior: ipcidr; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+# This source currently has no entries for this provider component.

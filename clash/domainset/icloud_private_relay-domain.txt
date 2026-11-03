@@ -1,0 +1,13 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/domainset/icloud_private_relay.json
+# Source SHA-256: 14da53248f6f46ba68b0112e2d7e8259fe702ddc35194ad67a9e50a2becf92eb
+# Mihomo behavior: domain; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
++.7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+canary.mask.apple-dns.net
+mask-api.icloud.com
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com

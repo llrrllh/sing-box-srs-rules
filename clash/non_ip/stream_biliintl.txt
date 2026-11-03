@@ -1,0 +1,6 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/non_ip/stream_biliintl.json
+# Source SHA-256: d6a33e52c08a5566089f7cacf5b25bcfb61cf355b0004bcbc7a551b4b4a41cac
+# Mihomo behavior: classical; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+AND,((OR,((DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe),(DOMAIN,apm-misaka.biliapi.net),(DOMAIN,upos-bstar-mirrorakam.akamaized.net),(DOMAIN,upos-bstar1-mirrorakam.akamaized.net),(DOMAIN-SUFFIX,bilibili.tv),(DOMAIN-SUFFIX,biliintl.com))),(PROCESS-NAME,com.bstar.intl))

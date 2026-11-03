@@ -1,0 +1,6 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/ip/stream_eu.json
+# Source SHA-256: d7a10bd310ca54db12dca097cab26eec531b4bbd926175dc6bf939f4e06e5834
+# Mihomo behavior: ipcidr; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+# This source currently has no entries for this provider component.

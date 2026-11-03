@@ -1,0 +1,16 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/ip/lan.json
+# Source SHA-256: 42c3d0939e9460e63cc1fa00c343d935f83f104c3e7ab9cb73aa5398248f49f6
+# Mihomo behavior: ipcidr; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+0.0.0.0/8
+10.0.0.0/8
+100.64.0.0/10
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+224.0.0.0/4
+::1/128
+fc00::/7
+fe80::/10

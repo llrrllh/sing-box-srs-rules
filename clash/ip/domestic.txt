@@ -1,0 +1,7 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/ip/domestic.json
+# Source SHA-256: fcf58b0951605311849e1438b178468bebb3f0fef72e9b68187fc2bcc0d120ac
+# Mihomo behavior: ipcidr; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+140.205.1.0/24
+162.14.0.0/18

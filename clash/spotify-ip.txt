@@ -1,0 +1,7 @@
+# Spotify rules converted from the retained Yuu518 sing-box source.
+# Source: https://raw.githubusercontent.com/Yuu518/sing-box-rules/rule_set/rule_set_site/spotify.json
+# Upstream repository: https://github.com/Yuu518/sing-box-rules
+# Source SHA-256: 9503096618b1517ced19e6d58772a6822c086765463ee3eb2844eacb27f26718
+# Rule data retains upstream provenance; no new license is asserted.
+# Mihomo behavior: ipcidr; format: text
+# The upstream source currently contains no IP rules.

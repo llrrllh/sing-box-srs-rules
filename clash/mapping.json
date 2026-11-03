@@ -1,0 +1,436 @@
+{
+  "providers": {
+    "ds-icloud-private-relay": {
+      "components": {
+        "domain": {
+          "behavior": "domain",
+          "entries": 8,
+          "format": "text",
+          "path": "clash/domainset/icloud_private_relay-domain.txt"
+        },
+        "extra": {
+          "behavior": "classical",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/domainset/icloud_private_relay-extra.txt"
+        },
+        "ip": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/domainset/icloud_private_relay-ip.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/domainset/icloud_private_relay.json",
+      "source_path": "sources/domainset/icloud_private_relay.json",
+      "source_sha256": "14da53248f6f46ba68b0112e2d7e8259fe702ddc35194ad67a9e50a2becf92eb"
+    },
+    "ds-reject": {
+      "components": {
+        "domain": {
+          "behavior": "domain",
+          "entries": 147987,
+          "format": "text",
+          "path": "clash/domainset/reject-domain.txt"
+        },
+        "extra": {
+          "behavior": "classical",
+          "entries": 166,
+          "format": "text",
+          "path": "clash/domainset/reject-extra.txt"
+        },
+        "ip": {
+          "behavior": "ipcidr",
+          "entries": 51,
+          "format": "text",
+          "path": "clash/domainset/reject-ip.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
+      "source_path": "sources/domainset/reject.json",
+      "source_sha256": "71b5b4fbf7b71208c084b21c8cff0d220a4a16e45759e4e7f1233510ad414956"
+    },
+    "ds-reject-phishing": {
+      "components": {
+        "domain": {
+          "behavior": "domain",
+          "entries": 142523,
+          "format": "text",
+          "path": "clash/domainset/reject_phishing-domain.txt"
+        },
+        "extra": {
+          "behavior": "classical",
+          "entries": 144,
+          "format": "text",
+          "path": "clash/domainset/reject_phishing-extra.txt"
+        },
+        "ip": {
+          "behavior": "ipcidr",
+          "entries": 51,
+          "format": "text",
+          "path": "clash/domainset/reject_phishing-ip.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
+      "source_path": "sources/domainset/reject_phishing.json",
+      "source_sha256": "8867cb11cd881a5800039cc987c4d8b1523c2598381e8af19d56f0726fa37fcd"
+    },
+    "ip-ai": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 400,
+          "format": "text",
+          "path": "clash/ip/ai.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/ai.json",
+      "source_path": "sources/ip/ai.json",
+      "source_sha256": "6a849261e5921908e415b78327b831c592c53e083a3f02394711380566625370"
+    },
+    "ip-china-ip": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 3886,
+          "format": "text",
+          "path": "clash/ip/china_ip.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
+      "source_path": "sources/ip/china_ip.json",
+      "source_sha256": "ced3791b3f4aaa6c15800eb4aae7e6e8acf6df17dd3f966a17b06e3f8bfcdf43"
+    },
+    "ip-china-ip-ipv6": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 3454,
+          "format": "text",
+          "path": "clash/ip/china_ip_ipv6.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
+      "source_path": "sources/ip/china_ip_ipv6.json",
+      "source_sha256": "5e6f93ef77d623b1a9bb986f131b46c0752523c8efb0637d2e9af0a69e447224"
+    },
+    "ip-domestic": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 2,
+          "format": "text",
+          "path": "clash/ip/domestic.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/domestic.json",
+      "source_path": "sources/ip/domestic.json",
+      "source_sha256": "fcf58b0951605311849e1438b178468bebb3f0fef72e9b68187fc2bcc0d120ac"
+    },
+    "ip-lan": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 11,
+          "format": "text",
+          "path": "clash/ip/lan.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/lan.json",
+      "source_path": "sources/ip/lan.json",
+      "source_sha256": "42c3d0939e9460e63cc1fa00c343d935f83f104c3e7ab9cb73aa5398248f49f6"
+    },
+    "ip-neteasemusic": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 17,
+          "format": "text",
+          "path": "clash/ip/neteasemusic.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/neteasemusic.json",
+      "source_path": "sources/ip/neteasemusic.json",
+      "source_sha256": "1e542617a139dc194a12334e85c62bfa65d919c42dc000ee43f911a58cae4065"
+    },
+    "ip-reject": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 766,
+          "format": "text",
+          "path": "clash/ip/reject.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/reject.json",
+      "source_path": "sources/ip/reject.json",
+      "source_sha256": "66fad262a2a20ab2921356c4c823ca512640a11ea5706b18f0b6f8e33fa0b3ea"
+    },
+    "ip-stream": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 19,
+          "format": "text",
+          "path": "clash/ip/stream.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/stream.json",
+      "source_path": "sources/ip/stream.json",
+      "source_sha256": "a5aa9461f4d45bd9724bad0a98e171e9c71095a7a5f15a05295669bd5150e83e"
+    },
+    "ip-stream-biliintl": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/ip/stream_biliintl.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 1,
+      "source": "https://ruleset.skk.moe/sing-box/ip/stream_biliintl.json",
+      "source_path": "sources/ip/stream_biliintl.json",
+      "source_sha256": "bbbfbebf7ab262d892db02cb6f77c511d0fbf105ef3b3eef42673cfa9c18289b"
+    },
+    "ip-stream-eu": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/ip/stream_eu.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/stream_eu.json",
+      "source_path": "sources/ip/stream_eu.json",
+      "source_sha256": "d7a10bd310ca54db12dca097cab26eec531b4bbd926175dc6bf939f4e06e5834"
+    },
+    "ip-stream-jp": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/ip/stream_jp.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/stream_jp.json",
+      "source_path": "sources/ip/stream_jp.json",
+      "source_sha256": "d7a10bd310ca54db12dca097cab26eec531b4bbd926175dc6bf939f4e06e5834"
+    },
+    "ip-stream-us": {
+      "components": {
+        "main": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/ip/stream_us.txt"
+        }
+      },
+      "ignored_provenance_sentinel_entries": 2,
+      "source": "https://ruleset.skk.moe/sing-box/ip/stream_us.json",
+      "source_path": "sources/ip/stream_us.json",
+      "source_sha256": "d7a10bd310ca54db12dca097cab26eec531b4bbd926175dc6bf939f4e06e5834"
+    },
+    "ni-ai": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 56,
+          "format": "text",
+          "path": "clash/non_ip/ai.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/ai.json",
+      "source_path": "sources/non_ip/ai.json",
+      "source_sha256": "38b8d62054aa99bfd4acc4f391887b8f636be3f4ea33ec978e2e5ef8a7dba59c"
+    },
+    "ni-apple-cn": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 11,
+          "format": "text",
+          "path": "clash/non_ip/apple_cn.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/apple_cn.json",
+      "source_path": "sources/non_ip/apple_cn.json",
+      "source_sha256": "f24f89b56a674bfd3000368cc1777a146fbfb8af164cebc584cfc0e728630c91"
+    },
+    "ni-apple-intelligence": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 7,
+          "format": "text",
+          "path": "clash/non_ip/apple_intelligence.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/apple_intelligence.json",
+      "source_path": "sources/non_ip/apple_intelligence.json",
+      "source_sha256": "db96b3bfacefe6016886072c32a1d6467b1e58b5b9677533d39b8828efe4a0a1"
+    },
+    "ni-direct": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 184,
+          "format": "text",
+          "path": "clash/non_ip/direct.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/direct.json",
+      "source_path": "sources/non_ip/direct.json",
+      "source_sha256": "e4e436b229efde624bf5d07b21d2ed48da836d2f0f78b07de62883321ee7a144"
+    },
+    "ni-domestic": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 870,
+          "format": "text",
+          "path": "clash/non_ip/domestic.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/domestic.json",
+      "source_path": "sources/non_ip/domestic.json",
+      "source_sha256": "3d4362083683a0fd40e77d806c668ecd8ebe69268928634c921e7026ed4c7ec7"
+    },
+    "ni-domestic-cdn": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 20,
+          "format": "text",
+          "path": "clash/non_ip/domestic_cdn.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/domestic_cdn.json",
+      "source_path": "sources/non_ip/domestic_cdn.json",
+      "source_sha256": "50401e167824f98ee1ceadae1afcd1d471ad85b467468cafe4432ee6398cb176"
+    },
+    "ni-lan": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 51,
+          "format": "text",
+          "path": "clash/non_ip/lan.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/lan.json",
+      "source_path": "sources/non_ip/lan.json",
+      "source_sha256": "7766f5e7522d77bc0565840e4a99e99334220b01fb0abe7387c2a8b14d2e9418"
+    },
+    "ni-neteasemusic": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 4,
+          "format": "text",
+          "path": "clash/non_ip/neteasemusic.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/neteasemusic.json",
+      "source_path": "sources/non_ip/neteasemusic.json",
+      "source_sha256": "de006bd1459c45a118ad2f76601619925d7d9e6154d368346ef157b23bd014eb"
+    },
+    "ni-stream": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 274,
+          "format": "text",
+          "path": "clash/non_ip/stream.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/stream.json",
+      "source_path": "sources/non_ip/stream.json",
+      "source_sha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5"
+    },
+    "ni-stream-biliintl": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 1,
+          "format": "text",
+          "path": "clash/non_ip/stream_biliintl.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/stream_biliintl.json",
+      "source_path": "sources/non_ip/stream_biliintl.json",
+      "source_sha256": "d6a33e52c08a5566089f7cacf5b25bcfb61cf355b0004bcbc7a551b4b4a41cac"
+    },
+    "ni-stream-eu": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 10,
+          "format": "text",
+          "path": "clash/non_ip/stream_eu.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/stream_eu.json",
+      "source_path": "sources/non_ip/stream_eu.json",
+      "source_sha256": "ef5b528229aaa0c686ca701aa7120213673b26a76935d7027f7cb166fa53b0f4"
+    },
+    "ni-stream-jp": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 27,
+          "format": "text",
+          "path": "clash/non_ip/stream_jp.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/stream_jp.json",
+      "source_path": "sources/non_ip/stream_jp.json",
+      "source_sha256": "1f47e0fc0859a079e6204cd17b62f13766d34930e2e6bfafc181768ce0325b98"
+    },
+    "ni-stream-us": {
+      "components": {
+        "main": {
+          "behavior": "classical",
+          "entries": 44,
+          "format": "text",
+          "path": "clash/non_ip/stream_us.txt"
+        }
+      },
+      "source": "https://ruleset.skk.moe/sing-box/non_ip/stream_us.json",
+      "source_path": "sources/non_ip/stream_us.json",
+      "source_sha256": "6faf8025d4c8166d52ff2ca0cf7ca4a03f10c98d313e766a965710eb2cb59c30"
+    },
+    "rs-Spotify": {
+      "components": {
+        "domain": {
+          "behavior": "domain",
+          "entries": 28,
+          "format": "text",
+          "path": "clash/spotify-domain.txt"
+        },
+        "ip": {
+          "behavior": "ipcidr",
+          "entries": 0,
+          "format": "text",
+          "path": "clash/spotify-ip.txt"
+        }
+      },
+      "source": "https://raw.githubusercontent.com/Yuu518/sing-box-rules/rule_set/rule_set_site/spotify.json",
+      "source_sha256": "9503096618b1517ced19e6d58772a6822c086765463ee3eb2844eacb27f26718"
+    }
+  },
+  "schema_version": 1,
+  "source_manifest": "manifest.json"
+}

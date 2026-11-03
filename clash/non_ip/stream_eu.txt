@@ -1,0 +1,15 @@
+# Converted from the same sing-box JSON used for the SRS publication.
+# Source: https://ruleset.skk.moe/sing-box/non_ip/stream_eu.json
+# Source SHA-256: ef5b528229aaa0c686ca701aa7120213673b26a76935d7027f7cb166fa53b0f4
+# Mihomo behavior: classical; format: text
+# Rule data retains upstream provenance; see SOURCE_LICENSES.md.
+DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+DOMAIN,bbc.mp-pxcdn.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,tvlicensing.co.uk
