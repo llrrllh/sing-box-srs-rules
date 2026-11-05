@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/non_ip/domestic.json
-# Source SHA-256: 3d4362083683a0fd40e77d806c668ecd8ebe69268928634c921e7026ed4c7ec7
+# Source SHA-256: 3ecd0ec6b30b61d9a247532064a056e00ccd2b9fd50fc3bb72ef8e72408be678
 # Mihomo behavior: classical; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
@@ -302,6 +302,7 @@ DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dittocdn.com
 DOMAIN-SUFFIX,dizzylab.net
 DOMAIN-SUFFIX,dl.bscstorage.net
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
