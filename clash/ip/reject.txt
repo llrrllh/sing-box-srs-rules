@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/ip/reject.json
-# Source SHA-256: 66fad262a2a20ab2921356c4c823ca512640a11ea5706b18f0b6f8e33fa0b3ea
+# Source SHA-256: aa4330310f0fa22875a6d11c2597a720eb476ef96a23ce6413e780781551b402
 # Mihomo behavior: ipcidr; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 0.0.0.0/24
@@ -249,6 +249,8 @@
 88.208.46.222/32
 88.214.50.173/32
 88.255.216.16/32
+89.126.250.172/32
+89.127.233.127/32
 91.121.67.60/32
 91.202.233.143/32
 91.204.226.224/32
