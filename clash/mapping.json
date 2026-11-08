@@ -29,7 +29,7 @@
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 149418,
+          "entries": 149566,
           "format": "text",
           "path": "clash/domainset/reject-domain.txt"
         },
@@ -48,13 +48,13 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
       "source_path": "sources/domainset/reject.json",
-      "source_sha256": "95c287cb3260a224c78ddf89763c8b02af6256a30eb847e9a2c63945f0fbee03"
+      "source_sha256": "fbbe6c849f8756a2e2786c3bab7f84594c8e6e951543f4c68a2e92c16a035475"
     },
     "ds-reject-phishing": {
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 138886,
+          "entries": 138355,
           "format": "text",
           "path": "clash/domainset/reject_phishing-domain.txt"
         },
@@ -73,7 +73,7 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
       "source_path": "sources/domainset/reject_phishing.json",
-      "source_sha256": "9788389f6bd48be31cf043db4469cce1a84faf67005ef6a5fe780f9de56d8a05"
+      "source_sha256": "6c782913ab211d5f4b210863bf5989a03c1c291485cdcf76c833371416ba00c2"
     },
     "ip-ai": {
       "components": {
@@ -93,7 +93,7 @@
       "components": {
         "main": {
           "behavior": "ipcidr",
-          "entries": 3889,
+          "entries": 3886,
           "format": "text",
           "path": "clash/ip/china_ip.txt"
         }
@@ -101,13 +101,13 @@
       "ignored_provenance_sentinel_entries": 2,
       "source": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
       "source_path": "sources/ip/china_ip.json",
-      "source_sha256": "40591254a5c722f286d0b18bee9d66ffdee48ba6f1217c0f326aac19770b25d2"
+      "source_sha256": "9f867ab6dc4ac1bb732a1d507a1db5cf3607908f9d9b1b24341300e6bd1f62d2"
     },
     "ip-china-ip-ipv6": {
       "components": {
         "main": {
           "behavior": "ipcidr",
-          "entries": 3432,
+          "entries": 3435,
           "format": "text",
           "path": "clash/ip/china_ip_ipv6.txt"
         }
@@ -115,7 +115,7 @@
       "ignored_provenance_sentinel_entries": 2,
       "source": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
       "source_path": "sources/ip/china_ip_ipv6.json",
-      "source_sha256": "69194c8ffad8128a79a0b88bb82d26354fc36ccb2ba56c53c57c64364275b85b"
+      "source_sha256": "d2bad8f90f22d31314a96bf53c245f556df716b754a61d4bc7733d5388f76a56"
     },
     "ip-domestic": {
       "components": {
