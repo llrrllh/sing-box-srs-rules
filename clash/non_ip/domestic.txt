@@ -1,16 +1,18 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/non_ip/domestic.json
-# Source SHA-256: 3ecd0ec6b30b61d9a247532064a056e00ccd2b9fd50fc3bb72ef8e72408be678
+# Source SHA-256: 2f5134c6200e84830d4c0ae857d41fa3f9730b7694655a986aa0683bb7031392
 # Mihomo behavior: classical; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,acg.tv
+DOMAIN,app.jianguoyun.com
 DOMAIN,app.viayoo.com
 DOMAIN,assets1.xboxlive.cn
 DOMAIN,assets2.xboxlive.cn
 DOMAIN,b23.tv
 DOMAIN,cdnstatic.tencentcs.com
 DOMAIN,cn.download.nvidia.com
+DOMAIN,comet.jianguoyun.com
 DOMAIN,config.ubnt.com
 DOMAIN,dl.ubnt.com
 DOMAIN,dns.pub
