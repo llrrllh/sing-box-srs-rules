@@ -18,22 +18,22 @@
       "upstream_url": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
       "source_path": "sources/domainset/reject.json",
       "srs_path": "rules/domainset/reject.srs",
-      "source_bytes": 4860924,
-      "source_sha256": "ae07b7abac676396ef2031aab698aaa37d5749dcaa6246db9c2e98c3b544b1f1",
-      "srs_bytes": 1379829,
-      "srs_sha256": "5206276bc2919ab8df66f461e939865c5f98c972b91f8d02ad5a612d993eca44",
-      "semantic_entries": 150020
+      "source_bytes": 4866117,
+      "source_sha256": "7f7be942260a2761d66f5812f3e48088977f679671db504cf212196eebf2acbf",
+      "srs_bytes": 1381523,
+      "srs_sha256": "c449623c057cdb29bc195f292de4e08eb7d4515c92daa6674fb219548cbabbf3",
+      "semantic_entries": 150183
     },
     {
       "tag": "ds-reject-phishing",
       "upstream_url": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
       "source_path": "sources/domainset/reject_phishing.json",
       "srs_path": "rules/domainset/reject_phishing.srs",
-      "source_bytes": 4485335,
-      "source_sha256": "8043fe3455811e02b1d689fd9e0a7085938d6dfd3ebfde3950c15b241485dc79",
-      "srs_bytes": 1212760,
-      "srs_sha256": "99d9a76dfd743c0db2c6518aaaffd039720f46d1982c2e259830a3c7db689125",
-      "semantic_entries": 139860
+      "source_bytes": 4468515,
+      "source_sha256": "55e4c35d34ddb376242a0a6c964895629414e66cf12827325eefd229874d60cb",
+      "srs_bytes": 1209023,
+      "srs_sha256": "4946d1a8587680e2f0cc39673030f0e2673b5ebd5d96e894b5bb8937829796ba",
+      "semantic_entries": 139315
     },
     {
       "tag": "ni-ai",
@@ -194,22 +194,22 @@
       "upstream_url": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
       "source_path": "sources/ip/china_ip.json",
       "srs_path": "rules/ip/china_ip.srs",
-      "source_bytes": 103506,
-      "source_sha256": "427d7675337eaa0a77043d4aea54d19b25110f45baeb1a45fb404d4e8d7e1869",
-      "srs_bytes": 14238,
-      "srs_sha256": "2012170fa56b5f0a0c79d744e10c1845808de4f229f9d1f405141a881de41587",
-      "semantic_entries": 3892
+      "source_bytes": 103454,
+      "source_sha256": "980007bdef29f6193f2ca2ce13690628ab2833226c07515dc81f72984f14ba17",
+      "srs_bytes": 14223,
+      "srs_sha256": "0bef96e35a3ee820cec83fc9752c80a6ede0d48b232641906ffda90a18944f0b",
+      "semantic_entries": 3890
     },
     {
       "tag": "ip-china-ip-ipv6",
       "upstream_url": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
       "source_path": "sources/ip/china_ip_ipv6.json",
       "srs_path": "rules/ip/china_ip_ipv6.srs",
-      "source_bytes": 94940,
-      "source_sha256": "a567c18a7b547e2a64e9034905838e7d9d6e2a6c95c8781f06b5cfa5a9310e1c",
-      "srs_bytes": 12649,
-      "srs_sha256": "23098cbdca0ec7fb5fe0f152bdee82523f90275e72c6a04f421499505e086ff9",
-      "semantic_entries": 3428
+      "source_bytes": 95219,
+      "source_sha256": "9ca9ad5c82b409be63be7a411d8ba33b396977954bd02fdd923ee2545628f185",
+      "srs_bytes": 12671,
+      "srs_sha256": "65f9654b2a8c5227ee5b22afe03e1ce362742b2e1c76bd0455ff6a186bd021ff",
+      "semantic_entries": 3437
     },
     {
       "tag": "ip-domestic",

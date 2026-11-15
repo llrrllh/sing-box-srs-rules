@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json
-# Source SHA-256: 8043fe3455811e02b1d689fd9e0a7085938d6dfd3ebfde3950c15b241485dc79
+# Source SHA-256: 55e4c35d34ddb376242a0a6c964895629414e66cf12827325eefd229874d60cb
 # Mihomo behavior: classical; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 DOMAIN-KEYWORD,-ad.a.yximgs.com
