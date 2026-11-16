@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json
-# Source SHA-256: 9ca9ad5c82b409be63be7a411d8ba33b396977954bd02fdd923ee2545628f185
+# Source SHA-256: daa0639688f9d26c56dfcd6ce65da2e879e56aba2766a8078d51a1f3187847a7
 # Mihomo behavior: ipcidr; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 2001:250::/30
@@ -2302,7 +2302,9 @@
 2406:840:e0d0::/44
 2406:840:e0e4::/48
 2406:840:e0e6::/47
-2406:840:e0e8::/45
+2406:840:e0e9::/48
+2406:840:e0ea::/47
+2406:840:e0ec::/46
 2406:840:e0f0::/44
 2406:840:e100::/45
 2406:840:e108::/46

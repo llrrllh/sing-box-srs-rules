@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/domainset/reject.json
-# Source SHA-256: 7f7be942260a2761d66f5812f3e48088977f679671db504cf212196eebf2acbf
+# Source SHA-256: 4cb71ff4030c7ec178e5d35a500896e480bf10c4831170f55e9ac9b5a38adb9c
 # Mihomo behavior: classical; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 DOMAIN-KEYWORD,-084-gls-223-www-9-k-0brasil.net.daraz.com
