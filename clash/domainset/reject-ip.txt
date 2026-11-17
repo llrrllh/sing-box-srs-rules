@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/domainset/reject.json
-# Source SHA-256: 4cb71ff4030c7ec178e5d35a500896e480bf10c4831170f55e9ac9b5a38adb9c
+# Source SHA-256: c5a0bffa8bde155713b75b387598d92405dbafa0345f1e531b4be53bf581e501
 # Mihomo behavior: ipcidr; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 101.124.19.122/32
