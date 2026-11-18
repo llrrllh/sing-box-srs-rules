@@ -29,7 +29,7 @@
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 149415,
+          "entries": 149545,
           "format": "text",
           "path": "clash/domainset/reject-domain.txt"
         },
@@ -48,13 +48,13 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
       "source_path": "sources/domainset/reject.json",
-      "source_sha256": "c5a0bffa8bde155713b75b387598d92405dbafa0345f1e531b4be53bf581e501"
+      "source_sha256": "69d336f0812503263c2ff50a7495d237513b170646bc4d877ffca949fc20967f"
     },
     "ds-reject-phishing": {
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 138810,
+          "entries": 139731,
           "format": "text",
           "path": "clash/domainset/reject_phishing-domain.txt"
         },
@@ -73,7 +73,7 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
       "source_path": "sources/domainset/reject_phishing.json",
-      "source_sha256": "87ce5b5c76ec2e9c3641a053e1c50e97c4737135912d01c9061e95e9e3fe680e"
+      "source_sha256": "549ee0d385d00752c4d215ad0a30267962a7ba80fc1431c907e0ca03ada181c9"
     },
     "ip-ai": {
       "components": {
@@ -101,13 +101,13 @@
       "ignored_provenance_sentinel_entries": 2,
       "source": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
       "source_path": "sources/ip/china_ip.json",
-      "source_sha256": "e9c60a57ba5048833cb053226f6f4f629bfa4796467ee935c9f9ea5af605bb3a"
+      "source_sha256": "035ab4c932936f0c5cb96f6539af91b0b212fb7688bb87d2d6081c7ad2e109e5"
     },
     "ip-china-ip-ipv6": {
       "components": {
         "main": {
           "behavior": "ipcidr",
-          "entries": 3436,
+          "entries": 3441,
           "format": "text",
           "path": "clash/ip/china_ip_ipv6.txt"
         }
@@ -115,7 +115,7 @@
       "ignored_provenance_sentinel_entries": 2,
       "source": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
       "source_path": "sources/ip/china_ip_ipv6.json",
-      "source_sha256": "82aecde66e4ccb08176be3fa426681fdf0384b66e40ba1dbb58fe2de787abd44"
+      "source_sha256": "41ff2516492fd52ac3da032e43ce2c3b6e4ba12925ff707e0d9f225738cec14b"
     },
     "ip-domestic": {
       "components": {
