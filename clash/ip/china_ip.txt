@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/ip/china_ip.json
-# Source SHA-256: 035ab4c932936f0c5cb96f6539af91b0b212fb7688bb87d2d6081c7ad2e109e5
+# Source SHA-256: 707c9a1a3d37b84987fac158e43190941621d474979125600da8c22b9dc6fb5d
 # Mihomo behavior: ipcidr; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 1.1.8.0/24
@@ -482,7 +482,7 @@
 52.82.134.0/23
 52.82.136.0/24
 52.82.144.0/23
-52.82.148.0/22
+52.82.148.0/23
 52.82.160.0/21
 52.82.170.0/23
 52.82.172.0/22
@@ -2868,7 +2868,6 @@
 185.194.148.0/24
 185.201.226.0/23
 188.131.128.0/17
-192.51.173.0/24
 192.140.160.0/19
 192.140.208.0/21
 192.144.128.0/17

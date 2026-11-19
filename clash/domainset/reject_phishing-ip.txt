@@ -1,6 +1,6 @@
 # Converted from the same sing-box JSON used for the SRS publication.
 # Source: https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json
-# Source SHA-256: 549ee0d385d00752c4d215ad0a30267962a7ba80fc1431c907e0ca03ada181c9
+# Source SHA-256: c84bbeedbeb9cedd5b81390e661b45d1e385fd9c6defe0277ee8291d9cf92f46
 # Mihomo behavior: ipcidr; format: text
 # Rule data retains upstream provenance; see SOURCE_LICENSES.md.
 101.124.19.122/32
