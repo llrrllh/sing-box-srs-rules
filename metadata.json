@@ -18,33 +18,33 @@
       "upstream_url": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
       "source_path": "sources/domainset/reject.json",
       "srs_path": "rules/domainset/reject.srs",
-      "source_bytes": 4857665,
-      "source_sha256": "3f97329ba517f51f6913f330ff21f9c3f6cee3ff400e2992f591f6f223a9c740",
-      "srs_bytes": 1380054,
-      "srs_sha256": "d819166137e03f13a3bed03274f93b1167eb020339ff226e4ead6eea5d0d23d1",
-      "semantic_entries": 149907
+      "source_bytes": 4855992,
+      "source_sha256": "d61099d280f2fad080c7870933568678328bfa26d2c7bfb67d8cfcfa0f8b46dd",
+      "srs_bytes": 1378070,
+      "srs_sha256": "c78b8871fad70000f585c9f5d313399a6510438ca02ae0bc5e0d871cb3ddda0f",
+      "semantic_entries": 149899
     },
     {
       "tag": "ds-reject-phishing",
       "upstream_url": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
       "source_path": "sources/domainset/reject_phishing.json",
       "srs_path": "rules/domainset/reject_phishing.srs",
-      "source_bytes": 4490024,
-      "source_sha256": "c84bbeedbeb9cedd5b81390e661b45d1e385fd9c6defe0277ee8291d9cf92f46",
-      "srs_bytes": 1213990,
-      "srs_sha256": "58e838fb8aa00ee7b6050c8160aa5676f69f36c1875f9703dfc694e0d32c8ea8",
-      "semantic_entries": 139857
+      "source_bytes": 4548568,
+      "source_sha256": "ef4cfdf36a2e9f36a5a3955174dc5e8c8bb3b39bfbea78063f34385dda9a6791",
+      "srs_bytes": 1229691,
+      "srs_sha256": "6be9f6de67e65aa94389140470485aac201a814eda7c6ee2c8a997286f61f0b0",
+      "semantic_entries": 141734
     },
     {
       "tag": "ni-ai",
       "upstream_url": "https://ruleset.skk.moe/sing-box/non_ip/ai.json",
       "source_path": "sources/non_ip/ai.json",
       "srs_path": "rules/non_ip/ai.srs",
-      "source_bytes": 1853,
-      "source_sha256": "b1e6b7ac3df708f768483ed0e3e59fa215a875ced06d3ebe68cb07224077d5aa",
-      "srs_bytes": 652,
-      "srs_sha256": "3e91850d1ee5faa1efa616f9c04952df9612a53150d10d350e6589315f57da00",
-      "semantic_entries": 57
+      "source_bytes": 1916,
+      "source_sha256": "8058a5067e561ae45e991de0f193a731943dd3ef51068c0f30fbebdc5b21b59b",
+      "srs_bytes": 678,
+      "srs_sha256": "f452df9eb275fc7fec535d479b2f330601cf0c1aa8b46e98ab317350d2a1cf90",
+      "semantic_entries": 59
     },
     {
       "tag": "ni-apple-cn",
@@ -194,22 +194,22 @@
       "upstream_url": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
       "source_path": "sources/ip/china_ip.json",
       "srs_path": "rules/ip/china_ip.srs",
-      "source_bytes": 103726,
-      "source_sha256": "707c9a1a3d37b84987fac158e43190941621d474979125600da8c22b9dc6fb5d",
-      "srs_bytes": 14275,
-      "srs_sha256": "84ac29ab2a52618cc0ca28b1e543217b1efc96e4fe7a291feb13fc2d6950657f",
-      "semantic_entries": 3900
+      "source_bytes": 104100,
+      "source_sha256": "91723ed7d2bc2927aa011400f7a05f8a21be884ad2979a07ebff3d55e9ffe6a5",
+      "srs_bytes": 14347,
+      "srs_sha256": "0f7de45983d95e6f7652e4656582e12850382aca5bf546f54eb83841625821d0",
+      "semantic_entries": 3914
     },
     {
       "tag": "ip-china-ip-ipv6",
       "upstream_url": "https://ruleset.skk.moe/sing-box/ip/china_ip_ipv6.json",
       "source_path": "sources/ip/china_ip_ipv6.json",
       "srs_path": "rules/ip/china_ip_ipv6.srs",
-      "source_bytes": 95415,
-      "source_sha256": "b80ce6d4556801f0f8a9ac990442c5b359758f75aee72619753936904bbe308d",
-      "srs_bytes": 12698,
-      "srs_sha256": "3de092d4c50954d31284ae4c2a8230dc12d8c929c263adf3564c7ebf9159f06d",
-      "semantic_entries": 3444
+      "source_bytes": 95477,
+      "source_sha256": "9a0ed67be2dd2ef314a3fa7ad96b37452b43914e4bf80184120fba1c08cb5830",
+      "srs_bytes": 12710,
+      "srs_sha256": "99ba7eedb568784b5dd710fb78a2f32e3c286204e7b01fc34f5d1dbc9e615d01",
+      "semantic_entries": 3446
     },
     {
       "tag": "ip-domestic",
@@ -249,11 +249,11 @@
       "upstream_url": "https://ruleset.skk.moe/sing-box/ip/reject.json",
       "source_path": "sources/ip/reject.json",
       "srs_path": "rules/ip/reject.srs",
-      "source_bytes": 21941,
-      "source_sha256": "a9b84a606782839c4ee43398d8290cb4a89e86a2d7773a9673d921b3a5d54f1d",
-      "srs_bytes": 2975,
-      "srs_sha256": "ada13b83165907a78dd8068f528de0547aab11944c2e5e15fd42dce05c0b8f1f",
-      "semantic_entries": 768
+      "source_bytes": 21914,
+      "source_sha256": "2faa8eb162d7a17b207945de2527e0310e52384851ff5dd5006a143a3400f1a3",
+      "srs_bytes": 2971,
+      "srs_sha256": "be420cec1f22d1321a27be2b37750f254e523839c052873fc83c95e6cc5607c9",
+      "semantic_entries": 767
     },
     {
       "tag": "ip-stream-biliintl",
