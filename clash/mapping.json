@@ -29,7 +29,7 @@
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 149823,
+          "entries": 149661,
           "format": "text",
           "path": "clash/domainset/reject-domain.txt"
         },
@@ -48,13 +48,13 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject.json",
       "source_path": "sources/domainset/reject.json",
-      "source_sha256": "f2235538d4ff73ac807c0e128e7b7f871706609706d3bb32a15ea20d39a544d2"
+      "source_sha256": "765ec9938572562a8998e3b00e0b02f23cd08c7e6b7d6aa8238222b331477c24"
     },
     "ds-reject-phishing": {
       "components": {
         "domain": {
           "behavior": "domain",
-          "entries": 141517,
+          "entries": 141508,
           "format": "text",
           "path": "clash/domainset/reject_phishing-domain.txt"
         },
@@ -73,7 +73,7 @@
       },
       "source": "https://ruleset.skk.moe/sing-box/domainset/reject_phishing.json",
       "source_path": "sources/domainset/reject_phishing.json",
-      "source_sha256": "e325673d8f741ce38e662d5b8c5d588e62dd2ef6be84acbb3c7500a5b48d083a"
+      "source_sha256": "fa8dad7ab5c865a02b9bee9b7c28638ba3c6c9688a480a2198556907c899ec6f"
     },
     "ip-ai": {
       "components": {
@@ -93,7 +93,7 @@
       "components": {
         "main": {
           "behavior": "ipcidr",
-          "entries": 3910,
+          "entries": 3909,
           "format": "text",
           "path": "clash/ip/china_ip.txt"
         }
@@ -101,7 +101,7 @@
       "ignored_provenance_sentinel_entries": 2,
       "source": "https://ruleset.skk.moe/sing-box/ip/china_ip.json",
       "source_path": "sources/ip/china_ip.json",
-      "source_sha256": "69713b9a339ecf97bb122f0dd3fba7635f6dc65be62362fb02d040ebf6c14768"
+      "source_sha256": "1d2a1c26d57eea9cff7fae91348857efb8b76d67890a2dfbb21b44a307d710c5"
     },
     "ip-china-ip-ipv6": {
       "components": {
